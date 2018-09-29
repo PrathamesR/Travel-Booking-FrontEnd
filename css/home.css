@@ -1,0 +1,40 @@
+body{  
+	height:100%;
+	width:100%;
+	background-repeat:no-repeat;
+	background-size:cover;
+	position:relative;
+}
+.center {
+    position: absolute;
+	height:30px;
+	width:40px;
+    text-align: center;
+    font-size: 18px;
+	left:24%;
+}
+.signin {
+	color: white;
+	position: absolute;
+	height:300px; 
+	width:300px;
+	padding:5px;
+	background-color:#1a1a1a;
+}
+.signup {
+	color: white;
+	position: absolute;
+	height:450px; 
+	width:300px;
+	background-color:#1a1a1a;
+}
+#IB{
+	background-color:transparent;
+	border:ridge;
+	color: white;
+	padding: 5px;
+	margin: 5px;  border: 0;
+	outline: 0;
+	background: transparent;
+	border-bottom: 1px solid white;
+}

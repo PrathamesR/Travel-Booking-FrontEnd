@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>
+
+	<title>Welcome</title>
+	<link rel="stylesheet" href="css/home.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+	
+	<script>
+	$(document).ready(function()
+  	{
+  		$(".signin").hide();
+		$(".signup").hide();
+  		$("#1").click(function()
+		{
+		$(".start").hide();
+		$(".signin").show();
+		$(".signup").hide();
+		});
+		$("#2").click(function()
+		{
+		$(".start").hide();
+		$(".signin").hide();	
+		$(".signup").show();
+		});
+	});
+	</script>
+</head>
+<body background="Images/Home.jpg" style="margin:0px;">
+<div class="center">
+	<img src="Images/ansh.png"alt="Image" height="260px;" width="850px;">
+	<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+</div>
+<div class="start" style="position: relative; left:30%; top:640px;">
+	<button type="button" id="1" class="btn btn-lg btn-dark">Sign In</button>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+	<button type="button" id="2" class="btn btn-lg btn-dark">Sign Up</button>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+	<a href="Tours.html"type="button" id="3"  class="btn btn-lg btn-dark" >Tours</a>
+</div>
+<div class="signin" style="position: relative; left: 42%; top:300px; text-align:center;">
+	<font size=5px >Enter Username:<input type="text" id="IB"/><br>Enter Password:<input type="password" id="IB"></font><br><br><button type="button" id="1" class="btn btn-lg btn-dark">Confirm</button>
+</div>
+<div class="signup" style="position: relative; left: 42%; top:300px; text-align:center;">
+	<font size=5px >Enter Username:<input type="text" id="IB"/><br>Enter Password:<input type="password" id="IB"><br>Confirm Password:<input type="password" id="IB"><br>Enter EmailId:<input type="text" id="IB"></font><button type="button" id="1" class="btn btn-lg btn-dark">Confirm</button>
+</div>
+</body>
+</html>
